@@ -8,7 +8,7 @@ h5 {
     margin-bottom: 3%;
 }
 
-/*Headings*/
+/* Headings */
 .header {
     margin-bottom: 1.5rem; /* Equivalent to Bootstrap mb-4 */
     font-weight: bold;
@@ -22,7 +22,7 @@ h5 {
     font-size: 20px;
 }
 
-/*Containers*/
+/* Containers */
 .container-fluid {
     display: flex;
     flex-wrap: wrap;
@@ -31,17 +31,17 @@ h5 {
     margin-top: 9%;
 }
 
-/*Reviews section*/
+/* Reviews section */
 .reviews-section {
     padding-bottom: 4rem;
 }
 
-/*Testimonial section*/
+/* Testimonial section */
 .testimonial-statement {
     margin-left: -3%;
 }
 
-/*Star rating section*/
+/* Star rating section */
 .star-rating {
     margin-left: 9%;
     margin-top: 3%;
@@ -56,7 +56,6 @@ h5 {
     align-items: center;
     letter-spacing: 0.1em; /* Adjust letter spacing for the stars */
 }
-
 
 .star-rating p {
     font-size: 1em;
@@ -75,7 +74,7 @@ h5 {
     padding: 2%;
     border-radius: 10px;
     justify-content: flex-start; /* Align items to the start */
-    max-width: 93%;
+    max-width: 69%;
 }
 
 .rating-2 {
@@ -88,8 +87,7 @@ h5 {
     left: 20%;
 }
 
-
-/*Feedback section*/
+/* Feedback section */
 .feedback-section {
     color: whitesmoke;
     margin-left: 9%;
@@ -134,7 +132,6 @@ h5 {
     margin-right: 4%;
 }
 
-
 .skill-card-2 {
     position: relative;
     top: 26px;
@@ -144,7 +141,6 @@ h5 {
     position: relative;
     top: 62px;
 }
-
 
 /* Footer section */
 footer.attribution {
@@ -163,7 +159,39 @@ footer.attribution {
     }
 }
 
-
 @media (min-width: 792px) and (max-width: 1269px) {
+    .container-fluid {
+        margin-left: 10%;
+        width: 100%;
+    }
 
+    .row{
+        margin-left: -14px;
+    }
+
+
+    .testimonial-statement {
+        margin-left: -3%;
+        margin-right: -5%;
+    }
+
+    .star-rating {
+        margin-left: 9%;
+        margin-top: 3%;
+    }
+
+
+    .star-rating-item {
+        max-width: 100%;
+    }
+
+    .feedback-item {
+        max-width: 35%;
+    }
+
+    .skill-card-3 {
+        position: relative;
+        top: -179px;
+        left: 72%;
+    }
 }
