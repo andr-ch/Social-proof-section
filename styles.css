@@ -197,3 +197,22 @@ footer.attribution {
         margin-left: 0.5%;
     }
 }
+
+
+
+   
+@media (max-width: 767px)  {
+    .feedback-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .feedback-item {
+        max-width: 100%;
+    }
+
+    .star-rating-item {
+        max-width: 87%;
+    }
+}
