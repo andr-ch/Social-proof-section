@@ -159,16 +159,15 @@ footer.attribution {
     }
 }
 
-@media (min-width: 792px) and (max-width: 1269px) {
+@media (min-width: 792px) and (max-width: 1538px) {
     .container-fluid {
-        margin-left: 10%;
+        margin-left: 9%;
         width: 100%;
     }
 
-    .row{
+    .row {
         margin-left: -14px;
     }
-
 
     .testimonial-statement {
         margin-left: -3%;
@@ -179,7 +178,6 @@ footer.attribution {
         margin-left: 9%;
         margin-top: 3%;
     }
-
 
     .star-rating-item {
         max-width: 100%;
@@ -198,10 +196,7 @@ footer.attribution {
     }
 }
 
-
-
-   
-@media (max-width: 767px)  {
+@media (max-width: 767px) {
     .feedback-section {
         display: flex;
         flex-wrap: wrap;
