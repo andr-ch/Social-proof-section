@@ -39,6 +39,7 @@ h5 {
 /* Testimonial section */
 .testimonial-statement {
     margin-left: -3%;
+    width: 80%;
 }
 
 /* Star rating section */
@@ -157,8 +158,23 @@ footer.attribution {
     .attribution {
         display: none;
     }
-}
 
+
+    .feedback-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .feedback-item {
+        max-width: 100%;
+    }
+
+    .star-rating-item {
+        max-width: 87%;
+    }
+}
+/*
 @media (min-width: 792px) and (max-width: 1538px) {
     .container-fluid {
         margin-left: 2%;
@@ -195,7 +211,7 @@ footer.attribution {
         margin-left: 0.5%;
     }
 }
-
+*/
 @media (max-width: 767px) {
     .feedback-section {
         display: flex;
@@ -209,5 +225,46 @@ footer.attribution {
 
     .star-rating-item {
         max-width: 87%;
+    }
+}
+
+
+@media (min-width: 792px)  and (max-width: 1263px) {
+    .testimonial-statement {
+        width: 124%;
+    }
+
+    .container-fluid {
+        margin-left: 2%;
+    }
+
+}
+
+@media only screen and (max-width: 1440px) {
+    .container-fluid {
+        margin-left: 4%;
+    }
+    .row {
+        margin-left: -14px;
+    }
+
+    .star-rating {
+        margin-left: 9%;
+        margin-top: 3%;
+    }
+
+    .star-rating-item {
+        max-width: 100%;
+    }
+
+    .feedback-item {
+        max-width: 35%;
+        margin-right: 3%;
+    }
+
+    .skill-card-3 {
+        top: -179px;
+        left: 72%;
+        margin-left: 0.5%;
     }
 }
