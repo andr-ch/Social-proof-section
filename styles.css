@@ -234,9 +234,13 @@ footer.attribution {
         width: 124%;
     }
 
-    .container-fluid {
-        margin-left: 2%;
+    .profile-details {
+        max-width: 38%;
+        left: 55px;
+        bottom: 31px;
     }
+
+   
 
 }
 
@@ -244,6 +248,7 @@ footer.attribution {
     .container-fluid {
         margin-left: 4%;
     }
+    
     .row {
         margin-left: -14px;
     }
