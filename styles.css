@@ -178,156 +178,68 @@ footer.attribution {
 }
 
 /* Media Queries */
-/* Mobile Styles for screens up to 576px */
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .attribution {
+        display: none;
+    }
+
     .header {
-        font-size: 2.2rem; /* Smaller header for mobile */
+        font-size: 2.5rem !important;
+        font-weight: 800;
         text-align: center;
     }
 
     .container-fluid {
-        flex-direction: column;
-        padding: 10px;
-        margin-top: 20%;
+        flex-direction: column !important;
+        padding: 10px !important;
+        margin-top: 20% !important;
+        margin-left: 0 !important;
+        width: 100% !important;
     }
 
     .star-rating {
-        margin-left: 0;
+        margin-left: 0% !important; 
     }
 
     .star-rating-item {
         display: flex;
         flex-direction: column;
-        margin-left: 0;
-        max-width: 100%;
+        margin-left: 0% !important;
+        max-width: 87% !important;
     }
 
     .rating-2, .rating-3 {
         position: relative;
-        left: 0;
-    }
-
-    .testimonial-statement {
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-        text-align: center;
+        left: 0% !important;
     }
 
     .feedback-section {
-        flex-direction: column;
-        margin-left: 5%;
-        margin-right: 5%;
-        padding-bottom: 38%;
-    }
-
-    .feedback-item {
-        max-width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .skill-card-3 {
-        position: relative;
-        left: 0;
-    }
-
-    .profile-details {
-        top: -52px;
-        margin-left: 8px;
-    }
-
-    .profile-pic {
-        max-width: 45px;
-        height: 45px;
-    }
-
-    .comment {
-        font-size: 0.9em;
-        margin-top: -10px;
-    }
-}
-
-/* Mobile Styles for screens between 577px and 768px */
-@media only screen and (min-width: 577px) and (max-width: 768px) {
-    .header {
-        font-size: 2.8rem;
-        text-align: center;
-    }
-
-    .container-fluid {
-        flex-direction: column;
-        margin-left: 0;
-        width: 100%;
-    }
-
-    .feedback-section {
-        flex-direction: column;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-
-    .feedback-item {
-        max-width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .testimonial-statement {
-        width: 100%;
-    }
-}
-
-/* Tablet and Small Desktop Styles for screens between 769px and 980px */
-@media only screen and (min-width: 769px) and (max-width: 980px) {
-    .header {
-        font-size: 3rem;
-    }
-
-    .container-fluid {
-        padding-left: 5%;
-        margin-top: 5%;
-    }
-
-    .feedback-section {
-        flex-direction: row;
+        flex-direction: column !important;
         flex-wrap: wrap;
-        justify-content: space-between;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+        padding-bottom: 2% !important;
     }
 
     .feedback-item {
-        max-width: 48%;
-        margin-bottom: 20px;
+        max-width: 100% !important;
+        margin-bottom: 20px !important;
     }
 
     .testimonial-statement {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .star-rating-item {
-        max-width: 90%;
-    }
-
-    .profile-details {
-        max-width: 70%;
-        left: 0;
-        bottom: 0;
-    }
-
-    .skill-card-3 {
-        top: 40px;
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        text-align: center !important;
     }
 }
 
-/* Larger Tablet and Small Desktop Styles for screens between 981px and 1263px */
-@media (min-width: 981px) and (max-width: 1263px) {
-    .testimonial-statement {
-        width: 100%;
-    }
 
-    .feedback-item {
-        max-width: 48%;
+
+
+@media (min-width: 792px) and (max-width: 1263px) {
+    .testimonial-statement {
+        width: 124%;
     }
 
     .profile-details {
@@ -337,10 +249,13 @@ footer.attribution {
     }
 }
 
-/* Larger Tablet and Small Desktop Styles for screens between 1264px and 1440px */
-@media only screen and (min-width: 1264px) and (max-width: 1440px) {
+@media only screen and (max-width: 1440px) {
     .container-fluid {
         margin-left: 4%;
+    }
+    
+    .row {
+        margin-left: -14px;
     }
 
     .star-rating {
@@ -349,7 +264,7 @@ footer.attribution {
     }
 
     .star-rating-item {
-        max-width: 82%;
+        max-width: 100%;
     }
 
     .feedback-item {
@@ -359,12 +274,5 @@ footer.attribution {
 
     .skill-card-3 {
         right: 0;
-    }
-}
-
-/* Hide attribution on smaller screens */
-@media only screen and (max-width: 768px) {
-    .attribution {
-        display: none;
     }
 }
