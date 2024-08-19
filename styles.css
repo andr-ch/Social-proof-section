@@ -315,3 +315,45 @@ footer.attribution {
         margin-top: 1.5%;
     }
 }
+
+
+/* Desktop View Adjustments for 980px to 1440px */
+@media (min-width: 980px) and (max-width: 1440px) {
+    .container-fluid {
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%; /* Adjust this width if necessary */
+        text-align: center; /* Center the content */
+    }
+
+    .star-rating {
+        margin-left: 15%;
+        margin-top: 2%;
+    }
+
+    .star-rating-item {
+        max-width: 70%; /* Adjust width to match design */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .feedback-item {
+        max-width: 28%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .skill-card-3 {
+        position: relative;
+        top: 60px; /* Adjust this as needed */
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5%;
+    }
+
+    .profile-details {
+        max-width: 29%;
+    }
+}
+
