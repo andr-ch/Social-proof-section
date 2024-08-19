@@ -317,13 +317,12 @@ footer.attribution {
 }
 
 
-/* Desktop View Adjustments for 980px to 1440px */
-@media only screen and (min-width: 980px) {
+/* Desktop View Adjustments for 980px*/
+@media (min-width: 980px) and (max-width: 980px) {
     .container-fluid {
         margin-left: auto;
         margin-right: auto;
         width: 85%; /* Adjust this width if necessary */
-        text-align: center; /* Center the content */
     }
 
     .star-rating {
@@ -356,4 +355,3 @@ footer.attribution {
         max-width: 29%;
     }
 }
-
