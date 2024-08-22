@@ -1,4 +1,4 @@
-/* Base Styles */
+/* General Styles */
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ h5 {
 
 /* Headings */
 .header {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem; /* Equivalent to Bootstrap mb-4 */
     font-weight: bold;
     color: hsl(300, 43%, 22%);
     font-size: 3.5rem;
@@ -36,6 +36,7 @@ h5 {
     justify-content: center;
     padding-left: 15px;
     margin-top: 9%;
+    width: 100%;
 }
 
 /* Reviews section */
@@ -61,16 +62,16 @@ h5 {
     margin-left: 5%;
     display: flex;
     align-items: center;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.1em; /* Adjust letter spacing for the stars */
 }
 
 .star-rating p {
     font-size: 1em;
     color: hsl(300, 43%, 22%);
     font-weight: 700;
-    text-align: left;
-    margin: 0;
-    flex: 1;
+    text-align: left; /* Align the text to the left */
+    margin: 0; /* Remove default margins */
+    flex: 1; /* Allow the paragraph to take available space */
 }
 
 .star-rating-item {
@@ -80,8 +81,8 @@ h5 {
     margin-bottom: 4%;
     padding: 2%;
     border-radius: 10px;
-    justify-content: flex-start;
-    max-width: 69%;
+    justify-content: flex-start; /* Align items to the start */
+    max-width: 64%; /* Ensure the width is flexible and does not overflow */
 }
 
 .rating-2 {
@@ -97,18 +98,18 @@ h5 {
 /* Feedback section */
 .feedback-section {
     color: whitesmoke;
-    margin-left: 9%;
-    margin-right: 9%;
+    margin-left: 9%; /* Reduced margin for smaller screens */
+    margin-right: 5%;
     padding-bottom: 4%;
 }
 
 .feedback-item {
     background-color: hsl(300, 43%, 22%);
     border-radius: 10px;
-    max-width: 25%;
+    max-width: 24%; /* Adjust to fit within the container */
     padding-left: 2%;
     padding-bottom: 2%;
-    margin-right: 1%;
+    margin-right: 16px; /* Removed margin for better alignment */
 }
 
 .text-area {
@@ -151,7 +152,7 @@ h5 {
 
 /* Footer section */
 footer.attribution {
-    background-color: inherit;
+    background-color: inherit; /* Inherit background color from body */
     color: ghostwhite;
     width: 100%;
     padding: 20px;
@@ -161,14 +162,14 @@ footer.attribution {
 
 /* Media Queries */
 
-/* Mobile (max-width: 767px) */
-@media (max-width: 767px)  {
+/* Mobile View (Up to 767px) */
+@media only screen and (max-width: 767px) {
     .attribution {
         display: none;
     }
 
     .header {
-        font-size: 2.2rem;
+        font-size: 2.2rem; /* Smaller header for mobile */
         text-align: center;
     }
 
@@ -230,10 +231,11 @@ footer.attribution {
     }
 }
 
-/* Laptop & Large Screen (min-width: 768px) */
+/* Laptops & Small Desktops (768px - 1440px) */
 @media (min-width: 768px) and (max-width: 1440px) {
     .container-fluid {
         margin-left: 5%;
+        margin-right: 5%;
         width: 100%;
     }
 
@@ -247,7 +249,7 @@ footer.attribution {
     }
 
     .star-rating {
-        margin-left: 13%;
+        margin-left: 10%;
         margin-top: 3%;
     }
 
@@ -257,6 +259,8 @@ footer.attribution {
 
     .feedback-item {
         max-width: 32%;
+        margin-left: 0;
+        margin-right: 1%;
     }
 
     .skill-card-3 {
@@ -272,86 +276,47 @@ footer.attribution {
     }
 }
 
-/* Additional adjustments for larger screens */
-@media only screen and (min-width: 1541px) {
+/* Specific Adjustments for 980px (980px - 1024px) */
+@media (min-width: 980px) and (max-width: 1024px) {
     .container-fluid {
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%; /* Adjust to utilize more space on larger screens */
-    }
-
-    .row {
-        margin-left: 0;
-    }
-
-    .testimonial-statement {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .star-rating {
         margin-left: 10%;
-        margin-top: 3%;
+        margin-right: 10%;
+        width: 80%;
     }
 
-    .star-rating-item {
-        max-width: 85%; /* Allow more width for large screens */
-    }
-
-    .feedback-item {
-        max-width: 29%;
-        margin-right: 1.5%;
-    }
-
-    .profile-details {
-        max-width: 28%;
-    }
-
-    .skill-card-3 {
-        position: relative;
-        top: 50px;
-        left: 0;
-        margin-left: 0;
-        margin-top: 1.5%;
-    }
-}
-
-
-/* Desktop View Adjustments for 980px*/
-@media (min-width: 980px) and (max-width: 980px) {
-    .container-fluid {
-        margin-left: auto;
-        margin-right: auto;
-        width: 85%; /* Adjust this width if necessary */
+    .reviews-section {
+        margin-right: -36%;
+        text-align: left;
     }
 
     .star-rating {
-        margin-left: 15%;
+        margin-left: 8%;
         margin-top: 2%;
     }
 
-    .star-rating-item {
-        max-width: 70%; /* Adjust width to match design */
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     .feedback-item {
-        max-width: 28%;
-        margin-left: auto;
-        margin-right: auto;
+        max-width: 34%;
+        margin-left: 0;
+        margin-right: 21px;
     }
 
     .skill-card-3 {
         position: relative;
-        top: 60px; /* Adjust this as needed */
-        left: 0;
+        top: -38%;
+        left: 64px;
         margin-left: auto;
-        margin-right: auto;
-        margin-top: 1.5%;
     }
 
     .profile-details {
         max-width: 29%;
+    }
+}
+
+/* Specific Adjustments for 980px and below */
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+    .section .container-fluid {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 136%;
     }
 }
