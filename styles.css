@@ -170,7 +170,7 @@ footer.attribution {
 
 @media (min-width: 792px) and (max-width: 1440px) {
     .container-fluid {
-        margin-left: 3%;
+        margin-left: 1%;
     }
 
     .row{
