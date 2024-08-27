@@ -180,11 +180,15 @@ footer.attribution {
 
     .testimonial-statement {
         margin-left: -3%;
-        margin-right: -5%;
+        margin-right: -18%;
+    }
+
+    .subheading {
+        margin-right: -31%;
     }
 
     .star-rating {
-        margin-left: 9%;
+        margin-left: 23%;
         margin-top: 3%;
     }
 
@@ -192,6 +196,11 @@ footer.attribution {
     .star-rating-item {
         max-width: 100%;
     }
+
+    .feedback-section {
+        margin-right: -108px;
+    }
+
 
     .feedback-item {
         max-width: 35%;
@@ -224,6 +233,10 @@ footer.attribution {
         margin: -2px;
     }
 
+    .subheading {
+        margin-right: 0 !important;
+    }
+
     .star-rating {
         margin-left: 0;
     }
@@ -231,8 +244,8 @@ footer.attribution {
     .star-rating-item {
         display: flex;
         flex-direction: column;
-        margin-left: 0;
-        max-width: 100%;
+        margin-left: 14px !important;
+        max-width: 92% !important; 
     }
 
     .rating-2, .rating-3 {
@@ -240,9 +253,14 @@ footer.attribution {
         left: 0;
     }
 
+    .reviews-section {
+        margin-right: 14px;
+    }
+
+
     .feedback-section {
         margin-left: 5%;
-        margin-right: 5%;
+        margin-right: 34px !important;
         padding-bottom: 38%;
     }
 
