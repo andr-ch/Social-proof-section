@@ -8,8 +8,10 @@
 
 
 body {
-    background-color: antiquewhite;
+   /* background-color: antiquewhite;*/
     font-family: "League Spartan", sans-serif;
+    background: url(images/g-g14.jpg) center fixed; 
+    background-size: cover;
 }
 
 h5 {
@@ -220,8 +222,6 @@ footer.attribution {
 
 }
 
-
-
    
 @media (max-width: 767px)  {
     .header {
@@ -296,38 +296,5 @@ footer.attribution {
     }
 }
 
-/* @media only screen and (max-width: 1541px) {
-    .container-fluid {
-        margin-left: 5% !important;
-        width: 106% !important;
-    }
-    
-    .row {
-        margin-left: -14px !important;
-    }
 
-    .star-rating {
-        margin-left: 4% !important;
-        margin-top: 3% !important;
-    }
 
-    .star-rating-item {
-        max-width: 100% !important;
-    }
-
-    .feedback-item {
-        max-width: 31% !important;
-        margin-right: 2% !important;
-    }
-
-    .profile-details {
-        max-width: 29%;
-    }
-
-    .skill-card-3 {
-        position: relative !important;
-        top: 59px;
-        left: 0;
-    }
-}
-*/
