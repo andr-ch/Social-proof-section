@@ -11,7 +11,7 @@ body {
    /* background-color: antiquewhite;*/
     font-family: "League Spartan", sans-serif;
     background: url(images/g-g14.jpg) center fixed; 
-    
+
    /*  background: url(images/4561066_93821.jpg) center fixed; */
     background: url(images/rm209-ning-16-a.jpg) center fixed; 
     background-size: cover;
@@ -200,6 +200,10 @@ footer.attribution {
 
     .star-rating-item {
         max-width: 100%;
+    }
+
+    .rating-2 {
+        width: 104%;
     }
 
     .feedback-section {
