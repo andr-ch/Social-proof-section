@@ -11,8 +11,10 @@ body {
    /* background-color: antiquewhite;*/
     font-family: "League Spartan", sans-serif;
     background: url(images/g-g14.jpg) center fixed; 
+    
+   /*  background: url(images/4561066_93821.jpg) center fixed; */
+    background: url(images/rm209-ning-16-a.jpg) center fixed; 
     background-size: cover;
-    background-repeat: no-repeat;
 }
 
 h5 {
