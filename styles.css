@@ -10,10 +10,8 @@
 body {
    /* background-color: antiquewhite;*/
     font-family: "League Spartan", sans-serif;
-    background: url(images/g-g14.jpg) center fixed; 
-
-   /*  background: url(images/4561066_93821.jpg) center fixed; */
     background: url(images/rm209-ning-16-a.jpg) center fixed; 
+    /* background: url(images/4561066_93821.jpg) center fixed; */
     background-size: cover;
 }
 
@@ -159,7 +157,7 @@ h5 {
 /* Footer section */
 footer.attribution {
     background-color: inherit; /* Inherit background color from body */
-    color: ghostwhite;
+    color: #4e2051;
     width: 100%;
     padding: 20px;
     margin-top: 42px;
@@ -201,32 +199,17 @@ footer.attribution {
     .star-rating-item {
         max-width: 100%;
     }
-   
-    .feedback-section {
-        margin-right: -108px;
-    }
-
-
-    .feedback-item {
-        max-width: 35%;
-        margin-right: 3%;
-    }
-
-    .skill-card-3 {
-        position: relative;
-        top: -179px;
-        left: 72%;
-        margin-left: 0.5%;
-    }
-
-    .profile-details {
-        max-width: 29%;
-    }
 
 }
 
    
 @media (max-width: 767px)  {
+    body {
+        background: url(images/rm209-ning-16-a.jpg) center fixed;
+        background-repeat: no-repeat;
+    }
+
+
     .header {
         font-size: 2.2rem; /* Smaller header for mobile */
         text-align: center;
