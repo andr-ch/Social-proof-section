@@ -180,7 +180,6 @@ footer.attribution {
         margin-left: -14px;
     }
 
-
     .testimonial-statement {
         margin-left: -3%;
         margin-right: -18%;
@@ -200,6 +199,9 @@ footer.attribution {
         max-width: 100%;
     }
 
+    .feedback-section {
+        margin-right: -57%;
+    }
 }
 
    
