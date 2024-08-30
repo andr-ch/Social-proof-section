@@ -180,6 +180,7 @@ footer.attribution {
         margin-left: -14px;
     }
 
+
     .testimonial-statement {
         margin-left: -3%;
         margin-right: -18%;
@@ -200,10 +201,27 @@ footer.attribution {
     }
 
     .feedback-section {
-        margin-right: -57%;
+        margin-right: -108px;
     }
-}
 
+
+    .feedback-item {
+        max-width: 35%;
+        margin-right: 3%;
+    }
+
+    .skill-card-3 {
+        position: relative;
+        top: -179px;
+        left: 72%;
+        margin-left: 0.5%;
+    }
+
+    .profile-details {
+        max-width: 29%;
+    }
+
+}
    
 @media (max-width: 767px)  {
     body {
